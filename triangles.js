@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync') ({ sigint: true });
 
-function mainMenu(){
+function mainMenu() {
     console.log("1. Return Angles\n2. Return Perimeter")
     var userInput = prompt("Make selection:")
 
